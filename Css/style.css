@@ -1,0 +1,45 @@
+
+.container{
+   margin: 10px;
+   padding: 10px;
+}  
+table{
+   width: 100%;
+   background-color: #f9f9f9;
+}
+.firstRow{
+    height: 80px;
+} 
+.firstRow td{
+   border-bottom: 1px solid;
+}
+.secondRow{
+    height: 300px;
+    background-color: darkkhaki;
+}
+.column2{
+    width: 70%;
+    background-color: #6e6e66;
+}
+.column1{
+    width: 30%;
+    background-color: #777767;
+}
+.Header{
+   margin: 10px;
+   padding: 10px;
+}
+.information{
+    height: 20%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid ;
+    padding: 20px
+}
+.information span{
+    font-size: 15px;
+}
+ul{
+   text-align: initial;
+margin-left: 30px;
+}
