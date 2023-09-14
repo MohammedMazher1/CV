@@ -1,64 +1,42 @@
-
+i{
+    font-size: 50px;
+}
 .container{
    margin: 10px;
    padding: 10px;
 }  
 table{
    width: 100%;
-   background-color: #2c3f41;
+   background-color: #979a9b;
 }
-.Header{
-    border-bottom: 1px dashed white;
-    color: white;
-}
-.firstRow{
-    height: 80px;
-} 
-.firstRow td{
-   border-bottom: 1px solid;
-}
-.secondRow{
-    height: 300px;
-}
-.column2{
-    background-color: #90b5b5;
-    text-align: center;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    text-transform: capitalize;
-    border-bottom: 1px dashed white;
-
-}
-.column1{
-    width: 30%;
-    background-color: #008085;
-}
-.list{
-    list-style: none;
-    margin-right: 30px;
-}
-.Header{
-   margin: 10px;
-   padding: 10px;
-}
-.information{
-    height: 20%;
-    text-align: center;
+td{
     border-bottom: 1px solid white;
     border-right: 1px solid ;
-    padding: 20px
+    padding: 20px;
+    letter-spacing: 1.5px;
+    background-color: teal;
+    
 }
-
-.summar{
-    display: table-cell;
-    vertical-align:center;
+.information{
+    background-color: #56869d;
 }
-dl{
-    font-size: 20px;
-    text-align: justify;
-    position: relative;
-    left: 60px;
+p{
+    font-size: 19px;
+    word-spacing: 1.5px;
+}
+.list{
+    font-size: 16px;
+    list-style:square;
+}
+.list li{
+    margin-bottom: 5px;
+}
+.Header{
+    background-color:#223535;
+    color: rgb(223, 219, 219);
 }
 dl dt{
+    font-size: 19px;
     font-weight: bold;
+    margin-bottom: 8px;
 }
