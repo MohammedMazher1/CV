@@ -5,7 +5,11 @@
 }  
 table{
    width: 100%;
-   background-color: #f9f9f9;
+   background-color: #2c3f41;
+}
+.Header{
+    border-bottom: 1px dashed white;
+    color: white;
 }
 .firstRow{
     height: 80px;
@@ -15,15 +19,23 @@ table{
 }
 .secondRow{
     height: 300px;
-    background-color: darkkhaki;
 }
 .column2{
-    width: 70%;
-    background-color: #6e6e66;
+    background-color: #90b5b5;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+    border-bottom: 1px dashed white;
+
 }
 .column1{
     width: 30%;
-    background-color: #777767;
+    background-color: #008085;
+}
+.list{
+    list-style: none;
+    margin-right: 30px;
 }
 .Header{
    margin: 10px;
@@ -36,10 +48,17 @@ table{
     border-right: 1px solid ;
     padding: 20px
 }
-.information span{
-    font-size: 15px;
+
+.summar{
+    display: table-cell;
+    vertical-align:center;
 }
-ul{
-   text-align: initial;
-margin-left: 30px;
+dl{
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    left: 60px;
+}
+dl dt{
+    font-weight: bold;
 }
