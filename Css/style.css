@@ -29,11 +29,11 @@ i{
 } */
 
 .container{
-    margin: 2% 14% 10% 17%;
     border-radius: 20px;
 }
 
 table{
+    position: relative;
     width: 100%;
     background-color: #b8c3c7;
     color: rgb(0 0 0 / 73%);
@@ -104,6 +104,6 @@ dd{
         font-size: 19px;
         font-weight: bold;
         margin-bottom: 8px;
-        margin-left: 14px;
+        /* margin-left: 14px; */
     }
 }
