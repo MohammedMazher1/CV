@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    background-color: #8b9999;
+}
+html {
+    scroll-behavior: smooth;
+}
+i{
+    font-size: 75px;
+    margin-right: 70px;
+} 
+/* 
+.main-heading h2::after {
+    content: "";
+    left: 50%;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid black;
+    bottom: -38px;
+    transform: translateX(-50%);
+    background-color: white;
+} */
+
+.container{
+    border-radius: 20px;
+}
+
+table{
+    position: relative;
+    width: 100%;
+    background-color: #b8c3c7;
+    color: rgb(0 0 0 / 73%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+td{
+    border-bottom: 1px solid white;
+    border-right: 1px solid ;
+    padding: 20px;
+    letter-spacing: 1.5px;
+}
+.information{
+    background-color:#223535;
+    color: #c7c2a8;
+    background-size: 200% 200%;
+    background-position: top left;
+}
+p{
+    font-size: 12px;
+    line-height: 1.5em;
+    word-spacing: 1.5px;
+    margin-left: 12px;
+}
+
+h4{
+    color: white;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.list{
+    font-size: 16px;
+    list-style: square;
+    margin-left: 30px;
+}
+.list li{
+    margin-bottom: 5px;
+}
+.Header{
+    background-color:#223535;
+    color: #c7c2a8;
+}
+dl dt{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+dd{
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+
+@media (max-width:768px){
+
+    p{
+        font-size: 16px;
+        word-spacing: 1px;
+    }
+    .list{
+        font-size: 16px;
+        list-style:square;
+    }
+    dl dt{
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        /* margin-left: 14px; */
+    }
+}
